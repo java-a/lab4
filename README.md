@@ -31,7 +31,7 @@
 
    如果勾选`Create project from template`，并选择`Java Hello World`，则最终新建的项目中，在src文件夹中会自动生成一个输出"Hello World"的java文件
 
-4. 接下来是项目名及路径的定义。在`Project name`中填写你想要的项目名称，如`Lab4`，下方的`Project location`中也会自动更改路径名（`Project location`也不一定用自动生成的路径，可以单击右方的`...`进行选择）
+4. 接下来是项目名及路径的定义。在`Project name`中填写你想要的项目名称，如`Lab4`，下方的`Project location`中也会自动更改路径名（`Project location`其实不一定用自动生成的路径，可以单击右方的`...`进行选择）
 
    ![img](https://cloud.githubusercontent.com/assets/9759891/19218447/c58be774-8e2c-11e6-9265-f2d8861fde0f.png)
 
@@ -41,13 +41,15 @@
 
    ![img](https://cloud.githubusercontent.com/assets/9759891/19218474/9a215fdc-8e2d-11e6-869d-b3b844dbd301.png)
 
-7. 运行这个project，可以直接单击右上角![](https://cloud.githubusercontent.com/assets/9759891/19218518/958ea0b4-8e2e-11e6-93ac-c34b8ad44cf0.png)的中绿色的三角形符号，或者也可以从菜单栏中依次单击`Run` -> `Run...`
+7. 运行这个project，可以直接单击右上角![](https://cloud.githubusercontent.com/assets/9759891/19218518/958ea0b4-8e2e-11e6-93ac-c34b8ad44cf0.png)中的绿色三角形符号，或者也可以从菜单栏中依次单击`Run` -> `Run...`
 
    在今后的学习中，你的项目会越来越复杂，会有很多个java文件互相配合，那么哪个文件是你整个项目的入口呢？或者说，你想要直接运行哪个java程序呢？之前在`atom`里，我们运行的是当前窗口打开的这个文件，在IntelliJ中呢？
 
    事实上，在java项目中，IntelliJ会自动找到所有定义了`public static void` 的` main`方法的`public class`，如Step 6中自动生成的`Main.java`中的`public class Main`。如果你的项目中恰好有多个这样的`public class`，很可能就会列出所有这些类，并让你选择运行哪一个。像Step 7中图这样，是默认运行`Main`这个类；同样的，如果你有多个符合条件可运行的类，单击图中向下的三角形，你可以选择你想运行的类。
 
    所以你在这个project中最直接调用的java文件不一定要叫`Main`（比如project自动生成的这个），只要你想调用的文件中有`public static void` 的` main`方法就好了。
+
+   当然，还有一种运行指定的文件的方法，就是在左边的文件浏览一栏中，选中你想运行的文件，右键并选择`Run`。
 
 ## 字符画
 
