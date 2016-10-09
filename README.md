@@ -11,9 +11,9 @@
 
 > **IntelliJ IDEA**被认为是当前Java开发效率最快的IDE工具。它是一种商业化销售的[Java](https://zh.wikipedia.org/wiki/Java)[集成开发环境](https://zh.wikipedia.org/wiki/%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83)（Integrated Development Environment，IDE）工具[软件](https://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BB%B6)，由[捷克](https://zh.wikipedia.org/wiki/%E6%8D%B7%E5%85%8B)软件公司[JetBrains](https://zh.wikipedia.org/wiki/JetBrains%E5%85%AC%E5%8F%B8)在2001年1月时推出最初版。
 
-在[lab0][https://github.com/java-a/lab0]中，我们曾简单提到过intellij。intellij在一些大型项目中的高效使得它备受各大公司的青睐，我们也将用它来开发我们的期中project[斗兽棋][https://github.com/java-a/project1]。
+在[lab0](https://github.com/java-a/lab0)中，我们曾简单提到过intellij。intellij在一些大型项目中的高效使得它备受各大公司的青睐，我们也将用它来开发我们的期中project[斗兽棋](https://github.com/java-a/project1)。
 
-为了让大家尽快上手，机智善良的@lfs TA已经为大家录制了十分详细的[Intellij入门视频][http://www.bilibili.com/mobile/video/av6483923.html?from=groupmessage&isappinstalled=0]，相信大家已经逐步感受到了IDE的便利。这次lab我们就需要在Intellij进行编程，并运行我们自己程序。
+为了让大家尽快上手，机智善良的@lfs TA已经为大家录制了十分详细的[Intellij入门视频](http://www.bilibili.com/mobile/video/av6483923.html?from=groupmessage&isappinstalled=0)，相信大家已经逐步感受到了IDE的便利。这次lab我们就需要在Intellij进行编程，并运行我们自己程序。
 
 开始编程之前，我们先新建一个专属这次lab的project吧✌️
 
@@ -147,6 +147,6 @@ switch (theChar) {
 
 ## 一些链接
 
-1. [代码风格指导][https://github.com/java-a/lab3/issues/3]
-2. [Intellij入门视频][http://www.bilibili.com/mobile/video/av6483923.html?from=groupmessage&isappinstalled=0]
-3. [好玩的代码注释][https://www.zhihu.com/question/20727260]
+1. [课程代码风格指导](https://github.com/java-a/lab3/issues/3)
+2. [Intellij入门视频](http://www.bilibili.com/mobile/video/av6483923.html?from=groupmessage&isappinstalled=0)
+3. [好玩的代码注释](https://www.zhihu.com/question/20727260)
