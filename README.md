@@ -25,13 +25,13 @@
 
    ![img](https://cloud.githubusercontent.com/assets/9759891/19218380/e207e972-8e2a-11e6-9d25-c4d522b41192.png)
 
-2. 在最左一列选择Java后，其它设置不用改
+2. 弹出新建项目的窗口后，在最左一列选择Java，其它设置不用改，单击右下角的`Next`
 
-3. 单击右下角的`Next`，跳到下一步，这里可以什么都不选；
+3. 跳到下一界面后，这里可以什么都不选；
 
-   如果勾选`Create project from template`，并选择`Java Hello World`，则最终新建的项目中，在src文件夹中会自动生成一个输出"Hello World"的java文件
+   如果勾选`Create project from template`，并选择`Java Hello World`，则最终新建的项目中，在`src`文件夹中会自动生成一个输出"Hello World"的java文件
 
-4. 接下来是项目名及路径的定义。在`Project name`中填写你想要的项目名称，如`Lab4`，下方的`Project location`中也会自动更改路径名（`Project location`其实不一定用自动生成的路径，可以单击右方的`...`进行选择）
+4. 接下来是输入项目名及路径。在`Project name`中填写你想要的项目名称，如`Lab4`，下方的`Project location`中也会自动更改路径名（`Project location`其实不一定用自动生成的路径，可以单击右方的`...`进行选择）
 
    ![img](https://cloud.githubusercontent.com/assets/9759891/19218447/c58be774-8e2c-11e6-9265-f2d8861fde0f.png)
 
