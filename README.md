@@ -2,16 +2,16 @@
 
 > 本节目标：
 >
-> 1. 熟悉intelliJ的使用，并用intelliJ完成本次lab的编程任务
+> 1. 熟悉IntelliJ的使用，并用IntelliJ完成本次lab的编程任务
 > 2. 熟悉for循环、switch语句  
 > 3. 初探文件输入，加强字符串处理能力
 > 4. 维护世界的爱与和平
 
-## 使用intelliJ
+## 使用IntelliJ
 
 > **IntelliJ IDEA**被认为是当前Java开发效率最快的IDE工具。它是一种商业化销售的[Java](https://zh.wikipedia.org/wiki/Java)[集成开发环境](https://zh.wikipedia.org/wiki/%E9%9B%86%E6%88%90%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83)（Integrated Development Environment，IDE）工具[软件](https://zh.wikipedia.org/wiki/%E8%BD%AF%E4%BB%B6)，由[捷克](https://zh.wikipedia.org/wiki/%E6%8D%B7%E5%85%8B)软件公司[JetBrains](https://zh.wikipedia.org/wiki/JetBrains%E5%85%AC%E5%8F%B8)在2001年1月时推出最初版。
 
-在[lab0](https://github.com/java-a/lab0)中，我们曾简单提到过intelliJ。intelliJ在一些大型项目中的高效使得它备受各大公司的青睐，我们也将用它来开发我们的期中project[斗兽棋](https://github.com/java-a/project1)。
+在[lab0](https://github.com/java-a/lab0)中，我们曾简单提到过IntelliJ。IntelliJ在一些大型项目中的高效使得它备受各大公司的青睐，我们也将用它来开发我们的期中project[斗兽棋](https://github.com/java-a/project1)。
 
 为了让大家尽快上手，机智善良的@lfs TA已经为大家录制了十分详细的[Intellij入门视频](http://www.bilibili.com/mobile/video/av6483923.html?from=groupmessage&isappinstalled=0)，相信大家已经逐步感受到了IDE的便利。这次lab我们就需要在IntelliJ进行编程，并运行我们自己程序。
 
@@ -43,9 +43,9 @@
 
 7. 运行这个project，可以直接单击右上角![](https://cloud.githubusercontent.com/assets/9759891/19218518/958ea0b4-8e2e-11e6-93ac-c34b8ad44cf0.png)的中绿色的三角形符号，或者也可以从菜单栏中依次单击`Run` -> `Run...`
 
-   在今后的学习中，你的项目会越来越复杂，会有很多个java文件互相配合，那么哪个文件是你整个项目的入口呢？或者说，你想要直接运行哪个java程序呢？之前在`atom`里，我们运行的是当前窗口打开的这个文件，在intelliJ中呢？
+   在今后的学习中，你的项目会越来越复杂，会有很多个java文件互相配合，那么哪个文件是你整个项目的入口呢？或者说，你想要直接运行哪个java程序呢？之前在`atom`里，我们运行的是当前窗口打开的这个文件，在IntelliJ中呢？
 
-   事实上，在java项目中，intelliJ会自动找到所有定义了`public static void` 的` main`方法的`public class`，如Step 6中自动生成的`Main.java`中的`public class Main`。如果你的项目中恰好有多个这样的`public class`，很可能就会列出所有这些类，并让你选择运行哪一个。像Step 7中图这样，是默认运行`Main`这个类；同样的，如果你有多个符合条件可运行的类，单击图中向下的三角形，你可以选择你想运行的类。
+   事实上，在java项目中，IntelliJ会自动找到所有定义了`public static void` 的` main`方法的`public class`，如Step 6中自动生成的`Main.java`中的`public class Main`。如果你的项目中恰好有多个这样的`public class`，很可能就会列出所有这些类，并让你选择运行哪一个。像Step 7中图这样，是默认运行`Main`这个类；同样的，如果你有多个符合条件可运行的类，单击图中向下的三角形，你可以选择你想运行的类。
 
    所以你在这个project中最直接调用的java文件不一定要叫`Main`（比如project自动生成的这个），只要你想调用的文件中有`public static void` 的` main`方法就好了。
 
@@ -81,7 +81,7 @@ import java.io.File;
 import java.util.Scanner;
 ```
 
-但是在intelliJ中，当你输入`File`或者`Scanner`这些关键字的时候，编译器会自动跳出你可以选择引用的工具类名称，你只需要选中想要的选择，这些工具类就会自动出现在文件最开始了😉
+但是在IntelliJ中，当你输入`File`或者`Scanner`这些关键字的时候，编译器会自动跳出你可以选择引用的工具类名称，你只需要选中想要的选择，这些工具类就会自动出现在文件最开始了😉
 
 这看上去已经成功读入了文件内容了对不对？但如果你直接运行这段代码，应该会得到一段程序报错：
 
@@ -89,7 +89,7 @@ import java.util.Scanner;
 
 从字面意思上看来，就是你没有处理可能会出现的`FileNotFoundException`，这是一种常见的无法找到文件的异常情况。而什么是异常，这个具体会在今后学习`异常`的章节中详细说明。而在这次lab中，你只需要知道，当你要从文件中读入内容时，有很大的可能你希望读取的文件不存在（这些可能呢，比如手残打错文件名了，比如你的文件放错地方了，或者真的不存在这个文件），而为了各种目的（比如这个名字的文件不存在其实没关系，还有别的默认内容可以读取；或者后面的代码其实更重要，我不希望这个文件错误搞崩之后的代码运行），我们需要对这种文件不存在的情况进行处理，并且最好留下log报告给开发者。
 
-再次感谢智能的intelliJ🙏它给出了解决这种异常的可能的方案，我们这次lab用这种自动给出的处理方案就足够了。如图，当鼠标点击到可能出错的这句话上时，这句话开头会出现一个红色的灯泡💡，表明有改进方案。
+再次感谢智能的IntelliJ🙏它给出了解决这种异常的可能的方案，我们这次lab用这种自动给出的处理方案就足够了。如图，当鼠标点击到可能出错的这句话上时，这句话开头会出现一个红色的灯泡💡，表明有改进方案。
 
 ![](https://cloud.githubusercontent.com/assets/9759891/19218819/54070b74-8e36-11e6-808c-2e2fceff2645.png)
 
@@ -112,6 +112,8 @@ try {
 ```java
 char theChar = dataString.charAt(i);
 ```
+
+而我们需要处理整个字符串，就需要遍历字符串的所有字符，这个可以用for循环来实现。循环中需要处理的字符个数当然就是整个字符串的长度啦，对于一个字符串`str`，我们可以用`str.length()`获取这个字符串的长度。
 
 ### STEP 3 密文翻译
 
